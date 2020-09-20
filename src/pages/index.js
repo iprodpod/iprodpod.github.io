@@ -5,7 +5,8 @@ import './index.css';
 import logo from '../assets/icons/icon_white.png'
 // import logo from '../assets/icons/icon_black.png'
 
-import background from '../assets/images/Gitarrvägg.jpg'
+// import background from '../assets/images/Gitarrvägg.jpg'
+import background from '../assets/images/gitarrvägg_compressed.jpg'
 // import background from '../assets/images/Helbild1.jpg'
 // import background from '../assets/images/KanskeHelbild4.jpg'
 // import background from '../assets/images/Lampa2.jpg'
