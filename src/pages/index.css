@@ -1,0 +1,59 @@
+.base {
+  background-color: #171717;
+}
+
+.main {
+  z-index: 1;
+  position: relative;
+  max-width: 600px;
+  margin: 0 auto;
+  height: 100vh;
+  
+}
+
+.logo {
+  padding: 2rem 0 0;
+  text-align: center;
+  font-size: calc(25px + 3vw);
+}
+
+.logo-image {
+  background: white;
+  border-radius: 50%;
+  padding: 1rem;
+}
+
+.paragraph-title {
+  margin: 15vh 2rem 0.3rem;
+  font-size: calc(18px + 1vw);
+}
+
+.break {
+  height: 1px;
+  background-color: white;
+  margin-left: 2rem;
+}
+
+.paragraph {
+  margin: 0.3rem 2rem;
+  font-size: calc(12px + 0.25vw);
+}
+
+.light-margin {
+  margin: 0.5rem 0 0;
+}
+
+.background-image {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 0;
+
+  min-width: 800px;
+  width: 100vw;
+
+  height: auto;
+
+  -webkit-mask-image:-webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,1)), to(rgba(0,0,0,0)));
+  mask-image: linear-gradient(to bottom, transparent 5%, black 75%);
+}
