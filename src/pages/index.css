@@ -24,7 +24,7 @@
 }
 
 .paragraph-title {
-  margin: 15vh 2rem 0.3rem;
+  margin: 2rem 2rem 0.3rem;
   font-size: calc(18px + 1vw);
 }
 
@@ -35,16 +35,17 @@
 }
 
 .paragraph {
-  margin: 0.3rem 2rem;
-  font-size: calc(12px + 0.25vw);
+  margin: 1rem 2rem;
+  font-size: calc(14px + 0.25vw);
+  line-height: 1.2;
 }
 
 .light-margin {
-  margin: 0.5rem 0 0;
+  margin: 1rem 0 0;
 }
 
 .background-image {
-  position: absolute;
+  position: fixed;
   bottom: 0;
   left: 0;
   z-index: 0;
@@ -55,5 +56,5 @@
   height: auto;
 
   -webkit-mask-image:-webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,1)), to(rgba(0,0,0,0)));
-  mask-image: linear-gradient(to bottom, transparent 5%, black 75%);
+  mask-image: linear-gradient(to bottom, transparent 5%, black 100%);
 }
